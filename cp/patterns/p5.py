@@ -1,0 +1,8 @@
+n=int(input("enter a number : "));
+for i in range(n):
+    for j in range(5):
+        if(j==0 or j==4):
+            print("*",end="");
+        else:
+            print("_",end="");
+    print();
